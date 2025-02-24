@@ -1,7 +1,9 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
-  "private": true,
+  "name": "adhan",
+  "version": "0.1.1",
+  "private": false,
+  "author": "oskr.nl",
+  "homepage": "https://adhan.oskr.nl",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

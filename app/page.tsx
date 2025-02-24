@@ -16,21 +16,6 @@ import type { Prayer, PrayerTimes } from './types'
 
 const playfair = Playfair_Display({ subsets: ['latin'] })
 
-// interface PrayerTimes {
-//   fajr: Date
-//   sunrise: Date
-//   dhuhr: Date
-//   asr: Date
-//   maghrib: Date
-//   isha: Date
-// }
-
-// interface Prayer {
-//   name: string
-//   time: Date
-//   icon: any
-// }
-
 export default function Home() {
   const [prayerTimes, setPrayerTimes] = useState<PrayerTimes | null>(null)
   const [nextPrayer, setNextPrayer] = useState<{
